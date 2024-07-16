@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html course</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>My plans For The Year</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#html">Coding Journey</a></li>
+          <li><a href="#vacation">Vacation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section id="html">
+        <h3>HTML 5</h3>
+        <p>My coding journey</p>
+        <p>this is my first page</p>
+        <section>
+          <img
+            src="img/sunset.jpg"
+            alt="a sunset picture"
+            title="i am learning how to use images"
+            width="300"
+            height="200"
+          />
+          <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt; </code>
+            </p>
+          </figure>
+        </section>
+        <ol>
+          <li>
+            I want to learn more about web dev on
+            <abbr title="Mozila Developer Network">
+              <a href="https://developer.mozilla.org/en-US/">MDN</a>
+            </abbr>
+          </li>
+          <li>I plan out my schedule</li>
+          <li>Its moving pretty well</li>
+        </ol>
+        <br />
+        <table>
+          <caption>
+            My daily Schedule
+          </caption>
+          <tr>
+            <th>Time</th>
+            <th>Activities</th>
+          </tr>
+          <tr>
+            <td>
+              <time datetime="08:00">8am </time>-<time datetime="11am:00"
+                >11am</time
+              >
+            </td>
+            <td>write code</td>
+          </tr>
+          <tr>
+            <td>
+              <time datetime="11:00">11am</time>-<time datetime="12:00"
+                >12am</time
+              >
+            </td>
+            <td>Eat lunch</td>
+          </tr>
+          <tr>
+            <td>
+              <time datetime="12:00">12am</time>-<time datetime="06:00"
+                >06pm</time
+              >
+            </td>
+            <td>study other courses</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <article id="vacation">
+        <h2>Vacation plan</h2>
+        <p>Vacation places i will visit</p>
+        <ul>
+          <li>Dla</li>
+          <li>Bda</li>
+          <li>baf</li>
+        </ul>
+        <img
+          src="img/sunset2.webp"
+          alt="bulb sun set"
+          title="i love sunsets"
+          width="500"
+          height="325"
+        />
+        <p>Places i am avoiding</p>
+        <dl>
+          <dt>North Pole</dt>
+
+          <dd>I hear this place is very cold</dd>
+          <dt>South Pole</dt>
+          <dd>I hear this place is also very cold</dd>
+        </dl>
+      </article>
+      <hr />
+
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>I really lie to hear from you</p>
+        <form>
+          <fieldset>
+            <p>
+              <label for="lastName"> Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Gonzales"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="firstName"> First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Gonzales"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="password">Password </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Your secret code"
+                required
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite Coffee: </label>
+              <select name="Coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffees">
+                  <option value="latte" selected>Regular coffee</option>
+                  <option value="iced coffee">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                  <option value="latte">latte</option>
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="cortado">Cortado</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>what is your Favorite food</legend>
+            <p>
+              <input type="radio" name="food" id="pizza" value="pizza" />
+              <label for="pizza">Pizza</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="tacos" value="tacos" />
+              <label for="tacos">Tacos</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="other" value="other" />
+              <label for="other">Pizza</label>
+            </p>
+          </fieldset>
+          <br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>
+        &lt;&lt;&lt;&lt;<a href="about.html">Suffo Soh Raoul</a>
+        &gt;&gt;&gt;&gt;
+      </p>
+      <a href="#">Back to top</a>
+    </footer>
+  </body>
+</html>
