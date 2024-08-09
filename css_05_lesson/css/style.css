@@ -1,7 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 2px red solid;
+  font-size: 1.5rem;
+  margin: 1.5em;
+  padding: 1.5em;
+  outline: 5px solid purple;
+  outline-offset: -20px;
+}
 
-h1 {
-  border: 2px dashed red;
-  width: 50%;
-  font-size: 3rem;
-  padding: 0.5em;
+.circle {
+  margin: 3rem auto;
+  width: 150px;
+  height: 150px;
+  border: 2px solid red;
+  border-radius: 50%;
 }
